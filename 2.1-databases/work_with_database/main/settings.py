@@ -52,11 +52,12 @@ MIDDLEWARE = [
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'netology_import_phones',
-        'HOST': '127.0.0.1',
-        'PORT': '5432',
-
+        'NAME': 'demoorm',
+        'USER': 'postgres',
+        'PASSWORD': '03061973NmN1107',
     }
+
+
 }
 
 # Password validation
